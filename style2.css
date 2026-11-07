@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f0f0f;
+    margin: 0;
+}
+
+/* Унікальний клас кнопки згідно із завданням */
+.my-super-btn {
+    position: relative;
+    padding: 15px 30px;
+    color: #00ffcc; /* Твій улюблений колір (неоновий бірюзовий) */
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    overflow: hidden;
+    border: 1px solid #00ffcc;
+    border-radius: 4px;
+}
+
+.my-super-btn:hover {
+    background: #00ffcc;
+    color: #0f0f0f;
+    box-shadow: 0 0 20px #00ffcc, 0 0 40px #00ffcc, 0 0 80px #00ffcc;
+}
